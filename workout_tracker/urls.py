@@ -2,8 +2,8 @@
 
 Points our project to our workout application.
 """
-from django.conf.urls import url, include
+from django.urls import re_path, include
 
 urlpatterns = [
-    url(r'^', include("apps.workout.urls")),
+    re_path(r'^', include("apps.workout.urls")),
 ]
