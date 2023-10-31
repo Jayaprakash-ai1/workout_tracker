@@ -3,3 +3,4 @@ Django
 pycparser
 pytz
 six
+gunicorn
